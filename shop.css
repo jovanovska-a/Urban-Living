@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+section{
+  padding: 150px 1%;
+  min-height: 100vh;
+}
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  background: rgb(196, 169, 141);
+}
+.img_lg{
+  display: flex;
+  align-items: center;
+  left: 0;
+}
+.logo-slika
+{
+  height: 120px;
+  width: 130px;
+}
+.name
+{
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: black;
+  text-decoration: underline;
+}
+.name:hover{
+  color: rgb(21, 96, 111);
+}
+.navbar{
+  position: relative;
+  display: flex;
+}
+.navbar a{
+  font-size: 1.5rem;
+  padding: 20px 30px;
+  font-weight: 500;
+  color: black;
+}
+.navbar a:hover{
+  color: rgb(21, 96, 111);
+}
+#menu-icon{
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+.heading
+{
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  margin-top: -40px;
+  display: flex;
+  background-color: rgb(132, 112, 92);
+  width: 30%;
+  margin-left: 5px;
+}
+.heading span{
+  margin-right: 15px;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  height: 20px;
+  width: 10px;
+}
+.shop-container{
+  display: flex;
+}
+.sofas{
+  margin-top: 30px;
+}  
+.coffee-tables,.sofas{
+  background-color: rgb(235, 215, 197);
+}
+.chairs .heading,.tv-cabinets .heading
+{
+  background-color:  rgb(90, 125, 133);
+}
+.chairs,.tv-cabinets{
+  background-color:  rgb(146, 168, 172);
+}
+.sofas-container,.chairs-container,.coffee-tables-container,.tables-container,.tv-cabinets-container
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.box{
+  width: 33%;
+  min-height: 37vh;
+  border: 3px black solid;
+  flex-wrap: wrap;
+  margin: 2px;
+}
+.box2{
+  width: 24%;
+  min-height: 75vh;
+  border: 3px black solid;
+  flex-wrap: wrap;
+  margin: 2px;
+}
+.box-img
+{
+  width: 100%;
+  height: 25vh;
+  overflow: hidden;
+}
+.box2-img
+{
+  width: 100%;
+  max-height: 56vh;
+  overflow: hidden;
+} 
+.title-price
+{
+  margin-top: 7px;
+  margin-left: 15px;
+  font-size: 1.2rem;
+  color: rgb(42, 42, 42);
+}
+
+#s1,#s2,#s3,#s4,#s5,#s6,#s11,#s12,#s13,#s14,#s15,#s16,#s17,#s18,#s19,#s20,#s21,#s22
+{
+  object-fit: cover;
+  width: 458px;
+  height: 24.8vh;
+}
+#s7,#s8,#s9,#s10
+{
+  object-fit: cover;
+  background-position: left;
+  height: 56vh;
+  width: 330px;
+}
+
+

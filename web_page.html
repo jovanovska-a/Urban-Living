@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home Interior</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="login.js"></script>
+    <script src="web_page.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="img_lg"><img class="logo-slika" src="slike/slika.png"><a href="#" class="name">.Urban Living</a></div></div>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <ul class="navbar">
+        <li><a href="web_page.html">Home</a></li>
+        <li><a href="#category">Categories</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contacts">Contact</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </header>
+    <section class="home" id="home">
+      <div class="home-text">
+        <h1>Live your life with <span>urban</span> style.<br>Start from your <span>home.</span><br></h1>
+        <p class="pom"><em>Your Comfort <br> Is Our Happiness</em></p>
+        <p></p>
+        <a href="shop.html" class="btn">Shop Here</a>
+      </div>
+    </section>
+    <section class="category" id="category">
+      <div class="about-text">
+        <span class="cspan">
+          Our Categories:
+        </span>
+        <div class="pics-address">
+          <div class="info-pics">
+          <div class="pic"><img src="slike/slika24.jpg" id="s24"></div>
+          <div class="pic"><img src="slike/slika25.jpg" id="s25"></div>
+          <div class="pic"><img src="slike/slika26.jpg" id="s26"></div>
+          </div>
+          <div class="category-info"><p><span>Chairs:</span>Types: Dining chairs, accent chairs, recliners. Materials: Wood, metal, upholstery. Styles: Modern, classic, contemporary.</p>
+            <p><span>Sofas:</span>Types: Sectional, loveseats, sleeper sofas. Materials: Fabric, leather, synthetic. Styles: Modern, traditional, contemporary.</p>
+            <p><span>Coffee Tables:</span>Function: Central point in living rooms. Design: Round, square, rectangular. Features: Storage options, lift tops.</p>
+            <p><span>TV Cabinets:</span>Purpose: Hold TVs and media equipment. Features: Shelves, drawers, cable management. Styles: Minimalist, modern.</p>
+      </div>
+   </div>
+</section>
+    <section class="about" id="about">
+          <div class="about-text">
+            <span>
+              About Us:
+            </span>
+            <p class="info"><em> Welcome to 'Urban Living,' where we redefine home interiors with a touch of sophistication and innovation. Our team comprises highly skilled designers dedicated to crafting exceptional pieces that transform your living space into a work of art. At Urban Living, our primary objective is to elevate your home to the pages of a luxury magazine, ensuring it reflects your unique style and personality. Whether you're in the historic streets of Barcelona or the charming lanes of Prague, our commitment to excellence transcends borders. Embrace the convenience of our home delivery service as we bring the pinnacle of design to your doorstep. Explore our five distinctive categories, featuring luxurious sofas, stylish chairs, elegant coffee tables, sophisticated dining tables, and contemporary TV commodes. Urban Living invites you to turn your living space into a canvas of urban elegance, where each piece tells a story of refined aesthetics and unparalleled comfort.</em></p>
+            <div class="pics-address">
+              <div class="address">
+                You can find us at:
+              <p>„Rugjer Boshkovikj 18 Skopje, Macedonia</p> 
+            </div>
+          </div>
+       </div>
+    </section>
+    <section class="contacts" id="contacts">
+      <div class="contact-us">
+        <h2>Contact Us</h2>
+      </div>
+      <div class="contacts2">
+        <div class="container">
+        <div class="contactInfo">
+          <div class="box">
+            <div class="icon"><img class="logo" src="map.png"></div>
+              <div class="text">
+                <h3>Address:</h3>
+                <p>„Rugjer Boshkovikj 18 Skopje, Macedonia</p>
+              </div>
+          </div>
+          <div class="box">
+            <div class="icon"><img class="logo" src="phone.png"></div>
+            <div class="text">
+              <h3>Phone:</h3>
+              <p>075 678 298</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><img class="logo" src="envelope.png"></div>
+            <div class="text">
+              <h3>Email:</h3>
+              <p>urban_living25@gmail.com</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><img class="logo" src="instagram.png"></div>
+            <div class="text">
+              <h3>Instagram:</h3>
+              <p>urban_living_</p>
+            </div>
+          </div>
+          <div class="box"> 
+            <div class="icon"><img class="logo" src="facebook.png"></div>
+            <div class="text">
+              <h3>Facebook:</h3>
+              <p>Urban Living</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contactForm">
+        <form>
+          <h2>Send Message</h2>
+          <div class="inputBox">
+            <input type="text" name="" required="required" id="cd">
+            <span id="typing-input">Full Name</span>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="" required="required" id="cd2">
+            <span id="typing-input2">Email</span>
+          </div>
+          <div class="inputBox">
+            <textarea required="required" id="cd3"></textarea>
+            <span id="typing-input3">Type your Message here...</span>
+          </div>
+          <div class="inputBox">
+            <input class="submit" type="submit" name="" value="Send">
+          </div>
+        </form>
+      </div></div>  
+  </section>  
+  <section class="feedback" id="feedback"> 
+  <form class="form2" action="/submit_survey" method="post">
+      <div ><label for="name">1. Your Name:</label>
+      <input type="text" id="name" name="name" required></div>
+      <div><label for="email">2. Your Email:</label>
+      <input type="email" id="email" name="email" required></div>
+      <div><label for="age">3. Your Age:</label>
+      <input type="number" id="age" name="age" required></div>   
+      <div><label>4. How would you rate the overall design of our site?</label>
+      <select id="design-rating" name="design-rating" required>
+          <option value="" disabled selected>Select rating</option>
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="average">Average</option>
+          <option value="poor">Poor</option>
+      </select></div>
+      <label>5. What was the primary purpose of your visit?</label>
+      <div class="radio"><input type="radio" id="purpose-info" name="purpose" value="information">
+      <label for="purpose-info">Information</label></div>
+      <div class="radio"><input type="radio" id="purpose-purchase" name="purpose" value="purchase">
+      <label for="purpose-purchase">Purchase</label></div>
+      <div class="radio"><input type="radio" id="purpose-contact" name="purpose" value="contact">
+      <label for="purpose-contact">Contact</label></div>
+      <div class="radio"><input type="radio" id="purpose-other" name="purpose" value="other"><label for="purpose-other">Other</label></div>
+      <div><label for="feedback">6. Please share any additional comments or suggestions:</label>
+      <textarea id="feedback" name="feedback" rows="4"></textarea></div>
+      <button class="btn2"type="submit">Submit</button>
+  </form>
+   </section>
+  </body>
+</html>

@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+section{
+  padding: 110px 1%;
+  max-height: 100vh;
+}
+.contacts
+{
+  background: url(background.jpg);
+  background-size: cover;
+}
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  background: rgb(196, 169, 141);
+}
+.img_lg{
+  display: flex;
+  align-items: center;
+  left: 0;
+}
+.logo-slika
+{
+  height: 120px;
+  width: 130px;
+}
+.name
+{
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: black;
+  text-decoration: underline;
+}
+.name:hover{
+  color: rgb(21, 96, 111);
+}
+.navbar{
+  position: relative;
+  display: flex;
+}
+.navbar a{
+  font-size: 1.5rem;
+  padding: 20px 30px;
+  font-weight: 500;
+  color: black;
+}
+.navbar a:hover{
+  color: rgb(21, 96, 111);
+}
+#menu-icon{
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+#MainImg,.small-img
+{
+  width: 100%;
+}
+.single-pro-image
+{
+  min-height: 70vh;
+  width: 54%;
+  margin-right: 50px;
+}
+#pro-details 
+{
+  display: flex;
+  margin: 30px 10px;
+}
+.small-img-group
+{
+  display: flex;
+  justify-content: space-between;
+}
+.small-img-col
+{
+  flex-basis: 49.2%;
+  cursor: pointer;
+  margin: 1px;
+}
+#pro-details
+{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#pro-details .single-pro-details
+{
+  border: 2px solid rgb(130, 110, 93);;
+  width: 60%;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#pro-details .single-pro-details h4{
+  padding: 10px 0 40px 0;
+  color:rgb(90, 125, 133);
+} 
+#pro-details .single-pro-details h2{
+  font-size: 26px;
+  padding: 0px 0 10px 0;
+  color: rgb(21, 96, 111);
+}
+#pro-details .single-pro-details select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  background-color: rgb(196, 169, 141);
+  border-radius:205px;
+  font-size: 15px;
+  color: rgb(0, 44, 55);
+}
+#pro-details .single-pro-details select:hover{
+  background-color: rgb(21, 96, 111);
+  color:rgb(235, 215, 197);
+  border: 1px black solid;
+  font-size: 1rem;
+}
+.btn
+{
+  padding: 5px 50px;
+  background:  rgb(89, 137, 147);
+  color: rgb(235, 215, 197);
+  border-radius: 3px;
+  font-size: 1rem;
+  border: 1px black solid;
+}
+.btn:hover{
+  background-color: rgb(196, 169, 141);
+  color: rgb(0, 62, 77);
+}
+.info{
+  height: 50%;
+}
+.contactForm{
+  width: 50%;
+  background-color: white;
+  padding: 30px;
+  margin-top: -10px;
+  width: 40%;
+  margin-left: 15px;
+}
+.inputBox
+{
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+}
+.contactForm h2{
+  font-size: 20px;
+  color: rgb(219, 191, 165);
+  text-decoration: underline;
+}
+.contactForm .inputBox input{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+  resize: none;
+}
+.contactForm .inputBox span{
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.2s;
+  color: rgb(83, 83, 83)
+}
+.contactForm .inputBox input:focus ~ span,.contactForm .inputBox textarea:focus ~ span{
+  color: rgb(6, 120, 143);
+  font-size: 12px;
+  transform: translateY(-15px);
+}
+.contactForm .inputBox input[type="submit"]
+{
+  width: 100px; background-color: rgb(21, 96, 111);
+  color: rgb(232, 208, 181);
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+  border: 2px black solid;
+}
+.contactForm .inputBox input[type="submit"]:hover{
+  background:  rgb(213, 189, 162);
+  color: rgb(21, 96, 111);
+}
+.contact-us
+{
+  font-size: 2rem;
+  color: rgb(132, 112, 92);
+  margin-top: -10px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+.container
+{
+  display: flex;
+}
+.inputBox
+{
+  display: flex;
+  margin-right: 10px;
+}
+.novaKlasa{
+  transform: translateY(-20px);
+}
+.single-pro-details input
+{
+  padding: 6px 20px;
+  margin-top: -1px;
+  color: rgb(96, 96, 96);
+}
+
+.comments-likes{
+  margin-top: 50px;
+}
+
+.comments-likes i{
+  color: rgb(182, 182, 182);
+  font-size: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.bxs-star:hover,
+.bxs-star.active {
+  color: gold;
+}
+
+.comments-likes button{
+  padding: 6px 12px;
+  background-color: rgb(21, 96, 111);
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  outline: 0;
+  cursor: pointer;
+}
+
+.comments-likes button:hover{
+  background-color: rgb(15, 73, 85);
+}
+
+.comments-likes input{
+  margin-top: 10px;
+}
+
+#comments-container{
+  margin-top: 50px;
+}
+
+.comment{
+  border-radius: 4px;
+  background-color: rgb(201, 201, 201);
+  padding: 6px;
+}

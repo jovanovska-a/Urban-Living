@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.login
+{
+  background-image: linear-gradient(to bottom right ,rgba(0, 0, 0, 0.8),rgba(100, 211, 187, 0.1)) ,url(slike/slika23.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+.form-box
+{
+  width: 380px;
+  height: 450px;
+  top: 80px;
+  left: -400px;
+  background-color: white;
+  position: relative;
+  margin: 10% auto;
+  padding: 12px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px 9px rgba(0,0,0,0.4);
+  overflow: hidden;
+}
+.button-box
+{
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px rgba(60, 120, 121, 0.5);
+  border-radius: 30px;
+}
+.toggle-btn
+{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+#btn
+{
+  top:0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right,rgba(5, 69, 55, 1),rgba(80, 158, 141, 0.7));
+  border-radius: 30px;
+  transition: .5s;
+} 
+.input-group
+{
+  top: 120px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+.input-field
+{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+.submit-btn
+{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right,rgba(5, 69, 55, 1),rgba(80, 158, 141, 0.7));
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+.check
+{
+  margin: 30px 10px 30px 0;
+}
+span{
+  color: #777;
+  font-size: 12px;
+  bottom: 68px;
+  position: absolute;
+  margin-top: 30px;
+}
+#login{
+  left: 50px;
+}
+#register{
+  left: 450px;
+}
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background: rgb(196, 169, 141);
+}
+.img_lg{
+  display: flex;
+  align-items: center;
+  left: 0;
+}
+.logo-slika
+{
+  height: 120px;
+  width: 130px;
+}
+.name
+{
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+  text-decoration: underline;
+}
+.name:hover{
+  color: rgb(21, 96, 111);
+}
+.navbar{
+  position: relative;
+  display: flex;
+}
+.navbar a{
+  font-size: 1.5rem;
+  padding: 20px 30px;
+  font-weight: 500;
+  color: black;
+}
+.navbar a:hover{
+  color: rgb(21, 96, 111);
+}
+#menu-icon{
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+a{
+  font-size: 15px;
+  color: rgb(224, 224, 224);
+}
+
+#error{
+  color: rgb(146, 0, 0);
+  margin: 0;
+  position: absolute;
+  top: 100px;
+}

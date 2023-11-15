@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <header>
+      <div class="img_lg"><img class="logo-slika" src="slike/slika.png"><a href="#" class="name">.Urban Living</a></div></div>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <ul class="navbar">
+        <li><a href="web_page.html">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contacts">Contact</a></li>
+        <li><a href="#login">Login</a></li>
+      </ul>
+    </header>
+    <div class="login">
+      <div class="form-box">
+        <div class="button-box">
+          <div id="btn"></div>
+          <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+          <button type="button" class="toggle-btn" onclick="register()">Register</button>
+        </div>
+        <form class="input-group" id="login">
+          <input type="name" id="login-username" class="input-field" placeholder="Enter your Username">
+            <input type="password" id="login-password" class="input-field" placeholder="Enter your Password">
+            <span id="error"></span>
+            <input type="checkbox" class="check"><span>Remember Password</span>
+            <button type="submit" class="submit-btn" id="login-btn"><a href="http://127.0.0.1:5500/web_page.html">Log In</a></button>
+        </form> 
+        <form class="input-group" id="register">
+          <input type="text" class="input-field" placeholder="Enter your Email">
+          <input type="text" class="input-field" placeholder="Username">
+          <input type="password" class="input-field" placeholder="Password">
+          <input type="checkbox" class="check"><span>I agree to the terms and conditions</span>
+          <button type="submit" class="submit-btn"><a href="">Register</a></button>
+      </form> 
+      </div>
+    </div>
+    <script>
+      var x=document.getElementById("login");
+      var y=document.getElementById("register");
+      var z=document.getElementById("btn");
+      function register()
+      {
+        x.style.left="-400px";
+        y.style.left="50px";
+        z.style.left="110px";
+      }
+      function login()
+      {
+        x.style.left="50px";
+        y.style.left="450px";
+        z.style.left="0px";
+      }
+    </script>
+    <script src="login.js"></script>
+  </body>
+</html>

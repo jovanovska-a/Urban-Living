@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home Interior</title>
+    <link rel="stylesheet" href="sproduct.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="sproduct.js"></script>
+    <script src="reviews.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="img_lg"><img class="logo-slika" src="slike/slika.png"><a href="#" class="name">.Urban Living</a></div></div>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <ul class="navbar">
+        <li><a href="web_page.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contacts">Order</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </header>
+    <section id="pro-details" class="section-p1">
+      <div class="single-pro-image">
+        <img src="slike/slika9.jpg" id="MainImg" alt="">
+        </div>
+      </div>
+      <div class="single-pro-details">
+        <div class="info">
+          <h4>Shop/ Chairs</h4>
+          <h2>Emerald Chair</h2>
+          <h2>55$</h2>
+          <select>
+            <option>Select Color</option>
+            <option>Emerald</option>
+          </select>
+          <input type="number" placeholder="Number of products:" required="required">
+          <button class="btn" id="add">Order</button>
+        </div> 
+        <div class="comments-likes">
+          <div>
+            <p>Rate this product</p>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+          </div>
+          <button id="likeBtn">Like this product</button>
+          <form action="" id="comment-form">
+            <input type="text" placeholder="Comment this product" id="comment-input">
+            <button>Submit comment</button>
+          </form>
+          <div id="comments-container">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts" id="contacts">
+      <div class="contact-us">
+        <h2>Order Now</h2>
+      </div>
+      <div class="container">
+      <div class="contactForm">
+        <form action="#">
+          <h2>Account</h2>
+          <div class="inputBox">
+            <input type="text" name="" required="required" id="cd6">
+            <span id="typing-input6">Full Name</span>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="" required="required" id="cd7">
+            <span id="typing-input7">Email</span>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="" required="required" id="cd8">
+            <span id="typing-input8">Address</span>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="" required="required" id="cd9">
+            <span id="typing-input9">City</span>
+          </div>
+        </form>
+      </div>
+      <div class="contactForm">
+        <form action="#">
+          <h2>Payment Details</h2>
+          <div class="inputBox" id="proba">
+            <input type="name" name="" required="required"  id="cd">
+            <span id="typing-input">Card Number</span>
+          </div>
+          <div class="inputBox" id="proba">
+            <input type="name" name="" required="required" id="cd2">
+            <span id="typing-input2">Card CVC</span>
+          </div>
+          <div class="inputBox">
+            <div class="inputBox"><input type="number" name="" required="required" id="cd3">
+            <span id="typing-input3">Exp Month</span></div>
+            <div class="inputBox"><input type="number" name="" required="required" id="cd4">
+            <span id="typing-input4">Exp Year</span></div>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="" required="required" id="cd5">
+            <span id="typing-input5">City</span>
+          </div>
+          <div class="inputBox">
+            <input class="submit" type="submit" value="Send">
+          </div>
+        </form>
+      </div> 
+      </div>
+  </section>    
